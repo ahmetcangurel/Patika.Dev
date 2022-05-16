@@ -7,8 +7,20 @@ export default StyleSheet.create({
         borderRadius: 10,
         marginVertical: 10,
     },
+    doneContainer:{
+        backgroundColor: 'gray',
+        padding: 10,
+        borderRadius: 10,
+        marginVertical: 10,
+    },
     title: {
         color: '#fff',
         fontSize: 18,
-    }
+    },
+    doneTitle:{
+        color: '#ddd',
+        fontSize: 18,
+        fontStyle: 'italic',
+        textDecorationLine: 'line-through',
+    },
 })

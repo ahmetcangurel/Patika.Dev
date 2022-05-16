@@ -1,12 +1,20 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { TouchableOpacity, View, Text } from 'react-native'
 import styles from './TaskItem.Styles'
 
-const TaskItem = (props) => {
+const TaskItem = ({ item, onPress, onLongPress }) => {
+
+
+
     return (
-        <View style={styles.container}>
-            <Text style={styles.title}>{props.item.text}</Text>
-        </View>
+        <TouchableOpacity
+            onLongPress={onLongPress}
+            onPress={onPress}
+            style={item.isCompleted == true ? styles.doneContainer : styles.container}
+            activeOpacity={0.7}
+        >
+            <Text style={item.isCompleted == true ? styles.doneTitle : styles.title}>{item.text}</Text>
+        </TouchableOpacity>
     )
 }
 
