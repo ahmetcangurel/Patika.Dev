@@ -1,18 +1,27 @@
-import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import React from 'react'
+import { NavigationContainer } from '@react-navigation/native'
+import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
-import First from './pages/First';
-import Second from './pages/Second';
+import Products from './pages/Products'
+import Detail from './pages/Detail'
 
-const Stack = createNativeStackNavigator();
+const Stack = createNativeStackNavigator()
 
-function Router() {
+const Router = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="First" component={First} />
-        <Stack.Screen name="Second" component={Second} />
+        <Stack.Screen
+          name='Products'
+          component={Products}
+          options={{
+            title: 'Dükkan',
+            headerStyle: { backgroundColor: '#64b5f6', },
+            headerTextStyle: { color: 'white', },
+            headerTintColor: 'white',
+          }}
+        />
+        <Stack.Screen name='Detail' component={Detail} />
       </Stack.Navigator>
     </NavigationContainer>
   )
