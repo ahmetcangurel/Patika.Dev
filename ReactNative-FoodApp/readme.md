@@ -7,21 +7,16 @@ It was created using React Native technologies. You can find the screenshots bel
 
 ### Gif
 
-![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/ahmetcangurel/minimal-portfolio/main/screen_pic/portfolio.gif) 
+![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/ahmetcangurel/Patika.Dev/main/ReactNative-FoodApp/screen_pics/foodapp.gif) 
 
 ### Screenshots
 
-![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/ahmetcangurel/minimal-portfolio/main/screen_pic/portfolio-screen-1.jpg)
+![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/ahmetcangurel/Patika.Dev/main/ReactNative-FoodApp/screen_pics/home_screen.png)
 
-![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/ahmetcangurel/minimal-portfolio/main/screen_pic/portfolio-screen-2.jpg)
+![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/ahmetcangurel/Patika.Dev/main/ReactNative-FoodApp/screen_pics/meals_screen.png)
 
-![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/ahmetcangurel/minimal-portfolio/main/screen_pic/portfolio-screen-3.jpg)
+![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/ahmetcangurel/Patika.Dev/main/ReactNative-FoodApp/screen_pics/detail_screen.png)
 
-![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/ahmetcangurel/minimal-portfolio/main/screen_pic/portfolio-screen-4.jpg)
-
-![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/ahmetcangurel/minimal-portfolio/main/screen_pic/portfolio-screen-5.jpg)
-
-![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/ahmetcangurel/minimal-portfolio/main/screen_pic/portfolio-screen-6.jpg)
 
 ## Feedback
 
