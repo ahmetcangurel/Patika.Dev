@@ -7,21 +7,20 @@ It was created using React Native technologies. You can find the screenshots bel
 
 ### Gif
 
-![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/ahmetcangurel/minimal-portfolio/main/screen_pic/portfolio.gif) 
+![Uygulama Ekran Görüntüsü](https://github.com/ahmetcangurel/Patika.Dev/blob/main/ReactNative-Jobs/screen_pic/jobs.gif?raw=true) 
 
 ### Screenshots
 
-![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/ahmetcangurel/minimal-portfolio/main/screen_pic/portfolio-screen-1.jpg)
+![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/ahmetcangurel/Patika.Dev/main/ReactNative-Jobs/screen_pic/detail_1.png)
 
-![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/ahmetcangurel/minimal-portfolio/main/screen_pic/portfolio-screen-2.jpg)
+![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/ahmetcangurel/Patika.Dev/main/ReactNative-Jobs/screen_pic/detail_2.png)
 
-![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/ahmetcangurel/minimal-portfolio/main/screen_pic/portfolio-screen-3.jpg)
+![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/ahmetcangurel/Patika.Dev/main/ReactNative-Jobs/screen_pic/detail_3.png)
 
-![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/ahmetcangurel/minimal-portfolio/main/screen_pic/portfolio-screen-4.jpg)
+![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/ahmetcangurel/Patika.Dev/main/ReactNative-Jobs/screen_pic/menu.png)
 
-![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/ahmetcangurel/minimal-portfolio/main/screen_pic/portfolio-screen-5.jpg)
+![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/ahmetcangurel/Patika.Dev/main/ReactNative-Jobs/screen_pic/favorites.png)
 
-![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/ahmetcangurel/minimal-portfolio/main/screen_pic/portfolio-screen-6.jpg)
 
 ## Feedback
 
