@@ -4,28 +4,26 @@ export default StyleSheet.create({
     container: {
         borderWidth: 1,
         borderColor: '#ddd',
-        backgroundColor: '#e0e0e0',
-        margin: 10,
+        borderRadius: 5,
+        margin: 5,
         flexDirection: 'row',
     },
     image: {
         width: 100,
-        minHeight: 100,
+        height: 100,
         resizeMode: 'contain',
-        backgroundColor: 'white',
+        backgroundColor: '#fff',
     },
-    bodyContainer: {
+    subContainer: {
         flex: 1,
-        justifyContent: 'space-between',
-        padding: 5,
+        justifyContent:'space-between',
+        margin: 5,
     },
     title: {
-        fontSize: 16,
+        fontSize: 14,
         fontWeight: 'bold',
     },
     price: {
         textAlign: 'right',
-        fontSize: 14,
-        fontStyle: 'italic',
     },
 })

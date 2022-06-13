@@ -1,31 +1,26 @@
-import { StyleSheet, Dimensions } from 'react-native'
-
-const deviceSize = Dimensions.get('window')
+import { StyleSheet } from 'react-native'
 
 export default StyleSheet.create({
-    container: {
-        flex: 1,
-    },
-    bodyContainer: {
-        padding: 10,
-    },
     image: {
-        width: deviceSize.width,
-        height: deviceSize.width / 3,
+        width: '100%',
+        height: 300,
         resizeMode: 'contain',
-        backgroundColor: 'white',
+        backgroundColor: '#fff',
+    },
+    infoContainer: {
+        paddingHorizontal: 10,
     },
     title: {
         fontSize: 20,
         fontWeight: 'bold',
+        marginVertical: 10,
     },
     desc: {
-        marginVertical: 5,
-        fontStyle: 'italic',
+        fontSize: 14,
     },
     price: {
+        fontSize: 18,
         fontWeight: 'bold',
-        fontSize: 20,
         textAlign: 'right',
     },
 })

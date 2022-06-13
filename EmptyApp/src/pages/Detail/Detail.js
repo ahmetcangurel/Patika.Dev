@@ -1,32 +1,28 @@
 import React from 'react'
-import { View, Text, Image } from 'react-native'
-import Config from 'react-native-config'
-import styles from './Detail.style'
 import useFetch from '../../hooks/useFetch'
+import { View, Text, Image } from 'react-native'
+import styles from './Detail.style'
+
 import Loading from '../../components/Loading'
 import Error from '../../components/Error'
 
 const Detail = ({ route }) => {
-    console.log(route.params.id)
+    const productID = route.params.id
 
-    const { loading, error, data } = useFetch(`${Config.API_URL}/${route.params.id}`)
+    const { data, loading, error } = useFetch(`https://fakestoreapi.com/products/${productID}`)
 
     if (loading) {
-        return (
-            <Loading />
-        )
+        return <Loading />
     }
 
     if (error) {
-        return (
-            <Error />
-        )
+        return <Error />
     }
 
     return (
         <View style={styles.container}>
             <Image source={{ uri: data.image }} style={styles.image} />
-            <View style={styles.bodyContainer}>
+            <View style={styles.infoContainer}>
                 <Text style={styles.title}>{data.title}</Text>
                 <Text style={styles.desc}>{data.description}</Text>
                 <Text style={styles.price}>{data.price} TL</Text>
